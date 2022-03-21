@@ -1,0 +1,60 @@
+baseURL = ""
+title = "Renata Cavalcanti"
+theme = "gokarna"
+languageCode = "pt"
+defaultContentLanguage = "pt"
+enableEmoji = true
+enableRobotsTXT = true
+disqusShortname = "yourshortname"
+
+# Choose one of emacs, trac or perldoc
+pygmentsStyle = "monokai"
+
+[params]
+  footer = "Renata Cavalcanti"
+  description = "Olá! Sou doutoranda, Mestre e Bacharel em Ciência Política pela Universidade Federal de Pernambuco (UFPE). Adoro fazer análise de dados em R e navego um pouco em Python."
+  avatarURL = "/renatacavalcanti.jpg"
+  avatarSize = "size-m"
+  customHeadHTML = """
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  """
+  socialIcons = [
+    {name = "linkedin", url = "https://linkedin.com/in/renata-ma-cavalcanti"},
+  ]
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+[menu]
+  [[menu.main]]
+    name = "Início"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Acadêmico"
+    url = "http://lattes.cnpq.br/1274106232543268"
+    weight = 3
+
+  [[menu.main]]
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contato"
+    url = "/contato/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "github"
+    pre = "<span data-feather='github'></span>"
+    url = "https://github.com/RenataCavalcanti"
+    weight = 6
